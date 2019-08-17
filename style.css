@@ -1,0 +1,131 @@
+.banner {
+    background-color: rgb(241, 18, 111);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.footer {
+    background-color: rgb(241, 18, 111);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.left-clear {
+    clear:left;
+}
+.clear {
+    clear:both;
+}
+.right-clear {
+    clear:right;
+}
+.class1 {
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right:20px;
+    font-size: 25px;
+}
+.margin1 {
+    margin-bottom: 30px;
+  }
+.class2 {
+    float: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+#id1 {
+    font-size: 18px;
+    margin-left: 900px;
+    font-family: 'Segoe UI', Tahoma ;
+    font-style: italic;
+}
+.class3 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: auto auto; 
+}
+.flex1 {
+    display: flex;
+}
+
+.class4 {
+    text-align: center;
+    margin: 40px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px black;
+    border: 10px solid rgb(0, 0, 158);
+}
+#img1 {height: 600px;
+
+    border: 7px solid rgb(0, 0, 158);
+    border-radius:10px;
+}
+#img {height: 180px;
+    border-radius: 8px;
+
+}
+#img2 {height: 1200px;
+    width: 650px;
+    border: 7px solid rgb(0, 0, 158);
+    border-radius:10px;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+a {
+    color: white;
+text-decoration: none;
+}
+.margin2 {
+    text-align: justify;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.margin3 {
+    text-align: justify;
+    margin-top:0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.margin3::first-line {
+    margin-top:20px;
+    font-size: 50px;
+}
+.color{
+    font-size: 20px;
+}
+.color::first-line {
+color:green;
+}
+.dances {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.class4 a{
+    color: black !important;
+    font-style: italic;
+}
+@media (max-width:1500px)
+{
+    .grid1 {
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto auto auto; 
+    }
+#img1 { height: 300px;
+
+}
+}
